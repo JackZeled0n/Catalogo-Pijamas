@@ -1,324 +1,919 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:x="urn:schemas-microsoft-com:office:excel"
-xmlns="http://www.w3.org/TR/REC-html40">
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Catálogo de Pijamas</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-white text-slate-900">
+        <div class="max-w-7xl mx-auto p-4">
+            <h1 class="text-xl font-semibold">Catálogo de Pijamas</h1>
+            <p class="text-sm text-slate-500 mb-4">Fuente: Pijamas traducido.csv
+                (codificación: cp1252)</p>
 
-<head>
-<meta name="Excel Workbook Frameset">
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=Excel.Sheet>
-<meta name=Generator content="Microsoft Excel 15">
-<link rel=File-List href="Pijamas%20traducido_archivos/filelist.xml">
-<![if !supportTabStrip]>
-<link id="shLink" href="Pijamas%20traducido_archivos/sheet001.htm">
+            <div class="overflow-x-auto rounded-lg border border-slate-200">
+                <table class="min-w-full border-collapse">
+                    <thead
+                        class="bg-slate-50 text-slate-600 text-sm sticky top-0">
+                        <tr>
+                            <th
+                                class='px-4 py-3 text-left font-medium'>Marca</th><th
+                                class='px-4 py-3 text-left font-medium'>Producto</th><th
+                                class='px-4 py-3 text-left font-medium'>Precio</th><th
+                                class='px-4 py-3 text-left font-medium'>Descripcion</th><th
+                                class='px-4 py-3 text-left font-medium'>Foto</th><th
+                                class='px-4 py-3 text-left font-medium'>Detalles</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 text-sm">
+                        <tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Grey's Anatomy</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa quir£rgica Avery </span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$34.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>confeccionada en spandex el stico de
+                                    primera calidad, con cuello en V, dos
+                                    bolsillos y dise¤o moderno. Ofrece comodidad
+                                    y estilo inigualables para profesionales de
+                                    la salud en cada turno.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image001.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image001.png'
+                                        alt='Blusa quir£rgica Avery '
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Pantalon Renee Knit </span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$41.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>pantal¢n de tiro alto con pretina de
+                                    punto el stico y cord¢n interno, seis
+                                    bolsillos funcionales, corte recto
+                                    favorecedor y acabado antimicrobiano con
+                                    tela repelente de manchas y humedad.
+                                    Comodidad y estilo para los turnos m s
+                                    exigentes.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image002.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image002.png'
+                                        alt='Pantalon Renee Knit '
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Perseverance 2-Pocket Zip-Neck
+                                    Top</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$24.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>blusa con cuello medio cierre, dos
+                                    bolsillos en el pecho y cintura el stica.
+                                    Confeccionada en poli‚ster CiCLO? y spandex,
+                                    ofrece elasticidad en 4 direcciones, control
+                                    de humedad y resistencia a arrugas,
+                                    combinando comodidad, estilo y
+                                    sostenibilidad.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image003.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image003.png'
+                                        alt='Perseverance 2-Pocket Zip-Neck Top'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Disponible en azul y negro</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Jogger cargo Terra de 6 bolsillos,
+                                    tiro medio</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$31.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>dise¤o moderno con cintura el stica y
+                                    seis bolsillos funcionales. Confeccionado en
+                                    poli‚ster reciclado con tecnolog¡a CiCLO?,
+                                    brinda suavidad, elasticidad y
+                                    transpirabilidad para una comodidad total
+                                    durante la jornada.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image004.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image004.png'
+                                        alt='Jogger cargo Terra de 6 bolsillos, tiro medio'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Pantal¢n cargo Cosmo de 6 bolsillos,
+                                    tiro medio y pierna entallada</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$31.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>elegante y funcional, con cintura el
+                                    stica y cord¢n interno. Confeccionado en
+                                    poli‚ster reciclado con tecnolog¡a CiCLO?,
+                                    ofrece suavidad, elasticidad y
+                                    transpirabilidad para comodidad todo el
+                                    d¡a.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image005.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image005.png'
+                                        alt='Pantal¢n cargo Cosmo de 6 bolsillos, tiro medio y pierna entallada'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Journey de 1 bolsillo y cuello
+                                    en V: </span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$29.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>dise¤o moderno que puede usarse dentro
+                                    o fuera del pantal¢n, con bolsillo en el
+                                    pecho y detalle de loop verde. Confeccionada
+                                    en poli‚ster reciclado con tecnolog¡a
+                                    CiCLO?, suave, el stica y transpirable para
+                                    m xima comodidad todo el d¡a.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image006.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image006.png'
+                                        alt='Blusa Journey de 1 bolsillo y cuello en V: '
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa de 2 bolsillos y cuello en
+                                    V</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$31.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>confeccionada con tela suave que
+                                    absorbe la humedad, mantiene la frescura
+                                    incluso en los turnos m s exigentes. Sus
+                                    bolsillos profundos permiten llevar siempre
+                                    a mano el celular y los
+                                    suministros.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image007.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image007.png'
+                                        alt='Blusa de 2 bolsillos y cuello en V'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Evelyn</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$31.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>combina estilo y funcionalidad con
+                                    cuello en V entallado, costuras princesa y
+                                    dobladillo redondeado. Incluye tres
+                                    bolsillos amplios y loop para gafete. Su
+                                    tela de absorci¢n de humedad mantiene
+                                    frescura y comodidad todo el
+                                    d¡a.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image008.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image008.png'
+                                        alt='Blusa Evelyn'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Riley de 3 bolsillos con cuello
+                                    en V y dise¤o cruzado</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$32.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>favorita de los clientes por su corte
+                                    favorecedor y ajuste regulable en la
+                                    espalda. Confeccionada en tela ultrasuave
+                                    para m xima comodidad durante la
+                                    jornada.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image009.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image009.png'
+                                        alt='Blusa Riley de 3 bolsillos con cuello en V y dise¤o cruzado'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Emma de 4 bolsillos y cuello en
+                                    V</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$34.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>confeccionada en tela el stica con
+                                    sensaci¢n de algod¢n, absorbe la humedad y
+                                    resiste arrugas y manchas. C¢moda y f cil de
+                                    cuidar, ideal para turnos
+                                    largos.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image010.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image010.png'
+                                        alt='Blusa Emma de 4 bolsillos y cuello en V'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Sketchers</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Breeze de 3 bolsillos y cuello
+                                    en V curvo</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$24.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>ligera, c¢moda y de ajuste moderno.
+                                    Confeccionada en tela el stica de 4 v¡as,
+                                    acompa¤a cada movimiento y brinda frescura
+                                    durante toda la jornada.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image011.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image011.png'
+                                        alt='Blusa Breeze de 3 bolsillos y cuello en V curvo'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SK101</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Pantal¢n Reliance de 3 bolsillos, tiro
+                                    medio y pierna recta</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$28.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>favorito por su comodidad todo el d¡a,
+                                    con cintura el stica y cord¢n ajustable.
+                                    Confeccionado en tela el stica de 4 v¡as que
+                                    ofrece ajuste perfecto y rendimiento
+                                    superior.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image012.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image012.png'
+                                        alt='Pantal¢n Reliance de 3 bolsillos, tiro medio y pierna recta'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SK201</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Dignity de 1 bolsillo y cuello
+                                    en V</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$24.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>cl sica y funcional, con bolsillo en
+                                    el pecho, loop para gafete, ribete interior
+                                    y cuello en punto el stico. Confeccionada en
+                                    tela suave y el stica para mayor comodidad y
+                                    flexibilidad.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image013.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image013.png'
+                                        alt='Blusa Dignity de 1 bolsillo y cuello en V'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SKT147</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Coast de 2 bolsillos con cuello
+                                    estilo banda y escote en V</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$24.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>combina estilo y funcionalidad con
+                                    costuras princesa favorecedoras, dobladillo
+                                    recto y aberturas laterales para mayor
+                                    movilidad. Confeccionada en tela ecol¢gica
+                                    de 4 v¡as con control de humedad, hecha a
+                                    partir de botellas recicladas.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image014.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image014.png'
+                                        alt='Blusa Coast de 2 bolsillos con cuello estilo banda y escote en V'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SKT259</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Pantal¢n Gamma de 6 bolsillos, tiro
+                                    medio y pierna entallada</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$28.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>moderno y funcional, con cintura el
+                                    stica y cord¢n ajustable. Incluye bolsillos
+                                    frontales, cargo y traseros, adem s de
+                                    aberturas en los tobillos. Confeccionado en
+                                    tela el stica de 4 v¡as con poli‚ster
+                                    reciclado de botellas pl sticas.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image015.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image015.png'
+                                        alt='Pantal¢n Gamma de 6 bolsillos, tiro medio y pierna entallada'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SKP623</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Pantal¢n Structure de 4 bolsillos con
+                                    cierre frontal</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$30.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>dise¤ado para acompa¤ar tu d¡a de
+                                    trabajo con comodidad. Cuenta con cintura el
+                                    stica y cord¢n ajustable, bolsillos
+                                    frontales, trasero y cargo. Confeccionado en
+                                    tela de alto rendimiento con elasticidad
+                                    para un ajuste perfecto.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image016.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image016.png'
+                                        alt='Pantal¢n Structure de 4 bolsillos con cierre frontal'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SK0215</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Pantal¢n jogger Theory de 4 bolsillos,
+                                    tiro medio</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$30.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>combina estilo y comodidad con pierna
+                                    tipo jogger, ranura para bol¡grafo y tela
+                                    que absorbe la humedad, ideal para un d¡a
+                                    activo en el trabajo.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image017.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image017.png'
+                                        alt='Pantal¢n jogger Theory de 4 bolsillos, tiro medio'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SKP552</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Pantal¢n jogger Structure de 3
+                                    bolsillos con cierre frontal</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$32.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>confeccionado en tela el stica suave
+                                    para mayor comodidad, con cintura el stica y
+                                    cord¢n, bolsillos frontales y cargo, adem s
+                                    de pu¤os en punto el stico.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image018.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image018.png'
+                                        alt='Pantal¢n jogger Structure de 3 bolsillos con cierre frontal'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SKP572</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Reliance de 3 bolsillos con
+                                    cuello en V cruzado</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$24.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>dise¤o tipo wrap con dobladillo
+                                    entallado que favorece la silueta.
+                                    Confeccionada en tela el stica de 4 v¡as,
+                                    incluye dos bolsillos inferiores y uno para
+                                    celular.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image019.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image019.png'
+                                        alt='Blusa Reliance de 3 bolsillos con cuello en V cruzado'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SK102</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Charge de 3 bolsillos con cuello
+                                    en V cruzado</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$25.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>ligera, transpirable y c¢moda,
+                                    confeccionada en tela el stica sostenible de
+                                    4 v¡as. Dise¤ada para brindar estilo y
+                                    practicidad en la jornada
+                                    laboral.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image020.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image020.png'
+                                        alt='Blusa Charge de 3 bolsillos con cuello en V cruzado'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SKT064</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Structure de 1 bolsillo y cuello
+                                    en V cruzado</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$27.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>confeccionada en tela de alto
+                                    rendimiento con elasticidad en 4 direcciones
+                                    para m xima comodidad. Incluye bolsillo
+                                    cargo en el pecho.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image021.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image021.png'
+                                        alt='Blusa Structure de 1 bolsillo y cuello en V cruzado'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SK0112</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Thesis de 3 bolsillos y cuello
+                                    redondo</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$27.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>dise¤o moderno con cuello en punto
+                                    tipo jersey, dobladillo alto-bajo y costuras
+                                    delanteras en ngulo. Incluye loop para
+                                    gafete y est confeccionada en tela ecol¢gica
+                                    con ajuste c¢modo.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image022.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image022.png'
+                                        alt='Blusa Thesis de 3 bolsillos y cuello redondo'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SKT193</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Bloom maternidad de 1 bolsillo y
+                                    cuello en V cruzado</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$31.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>dise¤ada para combinar estilo y
+                                    funcionalidad durante el embarazo. Con
+                                    cuerpo superior tipo wrap, parte inferior
+                                    fruncida en punto el stico y tela suave,
+                                    transpirable y flexible para m xima
+                                    comodidad.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image023.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image023.png'
+                                        alt='Blusa Bloom maternidad de 1 bolsillo y cuello en V cruzado'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SKT269</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Flex para hombre con bolsillo en
+                                    el pecho y cuello curvo</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$33.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>confeccionada en tela Comfort Knit con
+                                    elasticidad 360ø, absorbe la humedad y
+                                    brinda comodidad todo el d¡a. Incluye cierre
+                                    frontal, loop para gafete, dobladillo
+                                    alto-bajo y aberturas laterales.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image024.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image024.png'
+                                        alt='Blusa Flex para hombre con bolsillo en el pecho y cuello curvo'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SKT229</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Beyond Scrubs</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa de 3 bolsillos y cuello
+                                    redondo</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$23.00</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>moderna y funcional, con dos bolsillos
+                                    frontales y uno para celular, loop para
+                                    gafete y bungee en el hombro. Las aberturas
+                                    laterales brindan libertad de movimiento
+                                    durante toda la jornada.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image025.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image025.png'
+                                        alt='Blusa de 3 bolsillos y cuello redondo'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SBT118</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa Phoenix de 2 bolsillos y cuello
+                                    en V</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$27.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>combina estilo y funcionalidad con
+                                    bolsillo en el pecho y bolsillo lateral con
+                                    cierre. Confeccionada en tela el stica de 4
+                                    v¡as con tecnolog¡a de absorci¢n de humedad,
+                                    ofrece ajuste favorecedor y libertad de
+                                    movimiento.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image026.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image026.png'
+                                        alt='Blusa Phoenix de 2 bolsillos y cuello en V'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SBT120</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Jogger cargo de 5
+                                    bolsillos</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$28.00</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>con cintura media el stica en la parte
+                                    trasera, frente plano y cord¢n interno para
+                                    un ajuste seguro. Incluye bolsillos en
+                                    cadera, cargo y traseros, adem s de pu¤os el
+                                    sticos para un estilo moderno y c¢modo todo
+                                    el d¡a.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image027.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image027.png'
+                                        alt='Jogger cargo de 5 bolsillos'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SBB414</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Jogger cargo Jovial de 5
+                                    bolsillos</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$33.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>confeccionado en tela el stica de 4
+                                    v¡as con tecnolog¡a que absorbe la humedad.
+                                    Incluye cintura el stica de punto con cord¢n
+                                    ajustable, bolsillos en cadera, cargo y
+                                    traseros, m s pu¤os de punto para un ajuste
+                                    c¢modo y moderno.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image028.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image028.png'
+                                        alt='Jogger cargo Jovial de 5 bolsillos'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>SBB417</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Carhartt</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa de 4 bolsillos y cuello en V con
+                                    panel de punto</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$30.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>dise¤ada para comodidad y movilidad,
+                                    con panel trasero el stico, dobladillo curvo
+                                    y costuras princesa. Incluye bolsillos
+                                    amplios con compartimentos para celular y
+                                    tijeras, adem s de loop para gafete. Con
+                                    tecnolog¡a FastDry? que absorbe el sudor y
+                                    Stain Breaker? que facilita la
+                                    limpieza.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image029.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image029.png'
+                                        alt='Blusa de 4 bolsillos y cuello en V con panel de punto'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>C12313</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa de 3 bolsillos con cuello en V
+                                    abierto y paneles de punto</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$30.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>ligera y resistente, con tecnolog¡a
+                                    Rugged Flex? para mayor movilidad, FastDry?
+                                    que absorbe la humedad y Stain Breaker? que
+                                    facilita la limpieza. Incluye bolsillos
+                                    amplios con compartimento oculto para
+                                    celular, loop para gafete, costuras princesa
+                                    y dobladillo curvo para un ajuste
+                                    profesional.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image030.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image030.png'
+                                        alt='Blusa de 3 bolsillos con cuello en V abierto y paneles de punto'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>C12413</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa de 5 bolsillos y cuello en V con
+                                    loop para gafete</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$29.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>confeccionada en tela ligera y
+                                    sostenible con tecnolog¡a Rugged Flex? para
+                                    elasticidad, FastDry? que absorbe la humedad
+                                    y Stain Breaker? que facilita la limpieza.
+                                    Incluye bolsillos amplios con compartimentos
+                                    internos para celular y tijeras, costuras
+                                    princesa y dobladillo curvo para un ajuste
+                                    femenino y profesional.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image031.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image031.png'
+                                        alt='Blusa de 5 bolsillos y cuello en V con loop para gafete'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>C12113</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa unisex de 6 bolsillos y cuello
+                                    en V</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$29.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>pr ctica y moderna, con dobladillo
+                                    curvo y aberturas laterales para mayor
+                                    movilidad. Incluye bolsillo en el pecho con
+                                    ranura para bol¡grafo, bolsillos frontales
+                                    con compartimentos internos para celular y
+                                    tijeras, adem s de loop para gafete en el
+                                    hombro.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image032.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image032.png'
+                                        alt='Blusa unisex de 6 bolsillos y cuello en V'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>C15013</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Jogger cargo de 7 bolsillos con
+                                    pretina y pu¤os de punto el
+                                    stico</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$35.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>c¢modo y moderno, con pinzas traseras
+                                    que estilizan la cintura. Confeccionado en
+                                    poli‚ster reciclado con tecnolog¡a Rugged
+                                    Flex? para elasticidad, FastDry? que absorbe
+                                    la humedad y tela ligera y duradera. Incluye
+                                    bolsillos frontales, traseros, cargo triple
+                                    y soporte para bol¡grafo.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image033.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image033.png'
+                                        alt='Jogger cargo de 7 bolsillos con pretina y pu¤os de punto el stico'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>C51113</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa de cuello en V con bolsillo en
+                                    el pecho</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$37.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>confeccionada en tela ultrasuave y el
+                                    stica que acompa¤a cada movimiento. Puede
+                                    usarse dentro o fuera del pantal¢n para un
+                                    estilo vers til. Incluye yugo trasero con
+                                    pliegues, costuras reforzadas, loop para
+                                    gafete y aberturas laterales para mayor
+                                    comodidad.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image034.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image034.png'
+                                        alt='Blusa de cuello en V con bolsillo en el pecho'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>C13410</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Pantal¢n cargo de 9 bolsillos con
+                                    cintura el stica y cord¢n</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$35.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>ligero, transpirable y resistente, con
+                                    tela que aporta elasticidad y frescura todo
+                                    el d¡a. Incluye bolsillos frontales, cargo
+                                    triple con compartimento para celular,
+                                    pinzas traseras que estilizan y aberturas
+                                    laterales en el bajo para mayor
+                                    comodidad.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image035.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image035.png'
+                                        alt='Pantal¢n cargo de 9 bolsillos con cintura el stica y cord¢n'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>C51213</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Pantal¢n cargo unisex de 6 bolsillos
+                                    con cintura el stica</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$35.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>vers til y c¢modo, ideal para equipos
+                                    m‚dicos. Confeccionado en tela ligera y
+                                    resistente, ofrece libertad de movimiento
+                                    gracias a las aberturas laterales y corte
+                                    amplio. Incluye bolsillos frontales, cargo
+                                    triple con compartimentos y bolsillo trasero
+                                    con logo Carhartt. Ajuste seguro con pretina
+                                    el stica y cord¢n interno.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image036.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image036.png'
+                                        alt='Pantal¢n cargo unisex de 6 bolsillos con cintura el stica'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>C55013</span></td>
+                        </tr><tr class='hover:bg-slate-50'>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-slate-400'>—</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>Blusa de 4 bolsillos y cuello en V con
+                                    ajuste moderno</span></td>
+                            <td class='px-4 py-3 align-top text-right'><span
+                                    class='text-right tabular-nums'>$37.99</span></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>parte de la colecci¢n Carhartt Force
+                                    Cross-Flex?, confeccionada en poli‚ster
+                                    duradero con tecnolog¡a Rugged Flex? para m
+                                    xima movilidad. Incluye bolsillos frontales,
+                                    bolsillo con cierre para celular, ranura
+                                    para bol¡grafo y loop para gafete. Detalles
+                                    en punto el stico en hombros y espalda tipo
+                                    racerback, adem s de aberturas laterales
+                                    para mayor comodidad.</span></td>
+                            <td class='px-4 py-3 align-top text-left'><button
+                                    onclick="openModal('Pijamas traducido_archivos/image037.png')"
+                                    class='block w-24 h-32 overflow-hidden rounded-md border border-slate-200 bg-white'><img
+                                        src='Pijamas traducido_archivos/image037.png'
+                                        alt='Blusa de 4 bolsillos y cuello en V con ajuste moderno'
+                                        class='w-full h-full object-cover' /></button></td>
+                            <td class='px-4 py-3 align-top text-left'><span
+                                    class>C13210</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-<link id="shLink">
+        <!-- Modal -->
+        <div id="imageModal"
+            class="hidden fixed inset-0 bg-black/70 backdrop-blur-[2px] z-50">
+            <div class="w-full h-full flex items-center justify-center p-4"
+                onclick="closeIfBackdrop(event)">
+                <div class="relative max-w-5xl max-h-[90vh]">
+                    <button onclick="closeModal()"
+                        class="absolute -top-10 right-0 text-white/90 text-3xl leading-none px-3">&times;</button>
+                    <img id="modalImage" src alt="Vista ampliada"
+                        class="max-w-full max-h-[90vh] rounded-lg shadow-2xl">
+                </div>
+            </div>
+        </div>
 
-<script language="JavaScript">
-<!--
- var c_lTabs=1;
-
- var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Hoja1";
-
-
-
- var c_rgszClr=new Array(8);
- c_rgszClr[0]="window";
- c_rgszClr[1]="buttonface";
- c_rgszClr[2]="windowframe";
- c_rgszClr[3]="windowtext";
- c_rgszClr[4]="threedlightshadow";
- c_rgszClr[5]="threedhighlight";
- c_rgszClr[6]="threeddarkshadow";
- c_rgszClr[7]="threedshadow";
-
- var g_iShCur;
- var g_rglTabX=new Array(c_lTabs);
-
-function fnGetIEVer()
-{
- var ua=window.navigator.userAgent
- var msie=ua.indexOf("MSIE")
- if (msie>0 && window.navigator.platform=="Win32")
-  return parseInt(ua.substring(msie+5,ua.indexOf(".", msie)));
- else
-  return 0;
-}
-
-function fnBuildFrameset()
-{
- var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
-  "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
-  "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
-  "</frameset></frameset><plaintext>";
-
- with (document) {
-  open("text/html","replace");
-  write(szHTML);
-  close();
- }
-
- fnBuildTabStrip();
-}
-
-function fnBuildTabStrip()
-{
- var szHTML=
-  "<html><head><style>.clScroll {font:8pt Courier New;color:"+c_rgszClr[6]+";cursor:default;line-height:10pt;}"+
-  ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:default;line-height:11pt;}</style></head>"+
-  "<body onclick=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" onselectstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+" topmargin=0 leftmargin=0><table cellpadding=0 cellspacing=0 width=100%>"+
-  "<tr><td colspan=6 height=1 bgcolor="+c_rgszClr[2]+"></td></tr>"+
-  "<tr><td style=\"font:1pt\">&nbsp;<td>"+
-  "<td valign=top id=tdScroll class=\"clScroll\" onclick=\"parent.fnFastScrollTabs(0);\" onmouseover=\"parent.fnMouseOverScroll(0);\" onmouseout=\"parent.fnMouseOutScroll(0);\"><a>&#171;</a></td>"+
-  "<td valign=top id=tdScroll class=\"clScroll2\" onclick=\"parent.fnScrollTabs(0);\" ondblclick=\"parent.fnScrollTabs(0);\" onmouseover=\"parent.fnMouseOverScroll(1);\" onmouseout=\"parent.fnMouseOutScroll(1);\"><a>&lt</a></td>"+
-  "<td valign=top id=tdScroll class=\"clScroll2\" onclick=\"parent.fnScrollTabs(1);\" ondblclick=\"parent.fnScrollTabs(1);\" onmouseover=\"parent.fnMouseOverScroll(2);\" onmouseout=\"parent.fnMouseOutScroll(2);\"><a>&gt</a></td>"+
-  "<td valign=top id=tdScroll class=\"clScroll\" onclick=\"parent.fnFastScrollTabs(1);\" onmouseover=\"parent.fnMouseOverScroll(3);\" onmouseout=\"parent.fnMouseOutScroll(3);\"><a>&#187;</a></td>"+
-  "<td style=\"font:1pt\">&nbsp;<td></tr></table></body></html>";
-
- with (frames['frScroll'].document) {
-  open("text/html","replace");
-  write(szHTML);
-  close();
- }
-
- szHTML =
-  "<html><head>"+
-  "<style>A:link,A:visited,A:active {text-decoration:none;"+"color:"+c_rgszClr[3]+";}"+
-  ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt Arial;padding-left:3px;padding-right:3px;text-align:center;}"+
-  ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
-  "</style></head><body onload=\"parent.fnInit();\" onselectstart=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+
-  " topmargin=0 leftmargin=0><table id=tbTabs cellpadding=0 cellspacing=0>";
-
- var iCellCount=(c_lTabs+1)*2;
-
- var i;
- for (i=0;i<iCellCount;i+=2)
-  szHTML+="<col width=1><col>";
-
- var iRow;
- for (iRow=0;iRow<6;iRow++) {
-
-  szHTML+="<tr>";
-
-  if (iRow==5)
-   szHTML+="<td colspan="+iCellCount+"></td>";
-  else {
-   if (iRow==0) {
-    for(i=0;i<iCellCount;i++)
-     szHTML+="<td height=1 class=\"clBorder\"></td>";
-   } else if (iRow==1) {
-    for(i=0;i<c_lTabs;i++) {
-     szHTML+="<td height=1 nowrap class=\"clBorder\">&nbsp;</td>";
-     szHTML+=
-      "<td id=tdTab height=1 nowrap class=\"clTab\" onmouseover=\"parent.fnMouseOverTab("+i+");\" onmouseout=\"parent.fnMouseOutTab("+i+");\">"+
-      "<a href=\""+document.all.item("shLink")[i].href+"\" target=\"frSheet\" id=aTab>&nbsp;"+c_rgszSh[i]+"&nbsp;</a></td>";
+        <script>
+    function openModal(src) {
+      const img = document.getElementById('modalImage');
+      img.src = src;
+      document.getElementById('imageModal').classList.remove('hidden');
     }
-    szHTML+="<td id=tdTab height=1 nowrap class=\"clBorder\"><a id=aTab>&nbsp;</a></td><td width=100%></td>";
-   } else if (iRow==2) {
-    for (i=0;i<c_lTabs;i++)
-     szHTML+="<td height=1></td><td height=1 class=\"clBorder\"></td>";
-    szHTML+="<td height=1></td><td height=1></td>";
-   } else if (iRow==3) {
-    for (i=0;i<iCellCount;i++)
-     szHTML+="<td height=1></td>";
-   } else if (iRow==4) {
-    for (i=0;i<c_lTabs;i++)
-     szHTML+="<td height=1 width=1></td><td height=1></td>";
-    szHTML+="<td height=1 width=1></td><td></td>";
-   }
-  }
-  szHTML+="</tr>";
- }
-
- szHTML+="</table></body></html>";
- with (frames['frTabs'].document) {
-  open("text/html","replace");
-  charset=document.charset;
-  write(szHTML);
-  close();
- }
-}
-
-function fnInit()
-{
- g_rglTabX[0]=0;
- var i;
- for (i=1;i<=c_lTabs;i++)
-  with (frames['frTabs'].document.all.tbTabs.rows[1].cells[fnTabToCol(i-1)])
-   g_rglTabX[i]=offsetLeft+offsetWidth-6;
-}
-
-function fnTabToCol(iTab)
-{
- return 2*iTab+1;
-}
-
-function fnNextTab(fDir)
-{
- var iNextTab=-1;
- var i;
-
- with (frames['frTabs'].document.body) {
-  if (fDir==0) {
-   if (scrollLeft>0) {
-    for (i=0;i<c_lTabs&&g_rglTabX[i]<scrollLeft;i++);
-    if (i<c_lTabs)
-     iNextTab=i-1;
-   }
-  } else {
-   if (g_rglTabX[c_lTabs]+6>offsetWidth+scrollLeft) {
-    for (i=0;i<c_lTabs&&g_rglTabX[i]<=scrollLeft;i++);
-    if (i<c_lTabs)
-     iNextTab=i;
-   }
-  }
- }
- return iNextTab;
-}
-
-function fnScrollTabs(fDir)
-{
- var iNextTab=fnNextTab(fDir);
-
- if (iNextTab>=0) {
-  frames['frTabs'].scroll(g_rglTabX[iNextTab],0);
-  return true;
- } else
-  return false;
-}
-
-function fnFastScrollTabs(fDir)
-{
- if (c_lTabs>16)
-  frames['frTabs'].scroll(g_rglTabX[fDir?c_lTabs-1:0],0);
- else
-  if (fnScrollTabs(fDir)>0) window.setTimeout("fnFastScrollTabs("+fDir+");",5);
-}
-
-function fnSetTabProps(iTab,fActive)
-{
- var iCol=fnTabToCol(iTab);
- var i;
-
- if (iTab>=0) {
-  with (frames['frTabs'].document.all) {
-   with (tbTabs) {
-    for (i=0;i<=4;i++) {
-     with (rows[i]) {
-      if (i==0)
-       cells[iCol].style.background=c_rgszClr[fActive?0:2];
-      else if (i>0 && i<4) {
-       if (fActive) {
-        cells[iCol-1].style.background=c_rgszClr[2];
-        cells[iCol].style.background=c_rgszClr[0];
-        cells[iCol+1].style.background=c_rgszClr[2];
-       } else {
-        if (i==1) {
-         cells[iCol-1].style.background=c_rgszClr[2];
-         cells[iCol].style.background=c_rgszClr[1];
-         cells[iCol+1].style.background=c_rgszClr[2];
-        } else {
-         cells[iCol-1].style.background=c_rgszClr[4];
-         cells[iCol].style.background=c_rgszClr[(i==2)?2:4];
-         cells[iCol+1].style.background=c_rgszClr[4];
-        }
-       }
-      } else
-       cells[iCol].style.background=c_rgszClr[fActive?2:4];
-     }
+    function closeModal() {
+      const modal = document.getElementById('imageModal');
+      const img = document.getElementById('modalImage');
+      img.src = "";
+      modal.classList.add('hidden');
     }
-   }
-   with (aTab[iTab].style) {
-    cursor=(fActive?"default":"hand");
-    color=c_rgszClr[3];
-   }
-  }
- }
-}
-
-function fnMouseOverScroll(iCtl)
-{
- frames['frScroll'].document.all.tdScroll[iCtl].style.color=c_rgszClr[7];
-}
-
-function fnMouseOutScroll(iCtl)
-{
- frames['frScroll'].document.all.tdScroll[iCtl].style.color=c_rgszClr[6];
-}
-
-function fnMouseOverTab(iTab)
-{
- if (iTab!=g_iShCur) {
-  var iCol=fnTabToCol(iTab);
-  with (frames['frTabs'].document.all) {
-   tdTab[iTab].style.background=c_rgszClr[5];
-  }
- }
-}
-
-function fnMouseOutTab(iTab)
-{
- if (iTab>=0) {
-  var elFrom=frames['frTabs'].event.srcElement;
-  var elTo=frames['frTabs'].event.toElement;
-
-  if ((!elTo) ||
-   (elFrom.tagName==elTo.tagName) ||
-   (elTo.tagName=="A" && elTo.parentElement!=elFrom) ||
-   (elFrom.tagName=="A" && elFrom.parentElement!=elTo)) {
-
-   if (iTab!=g_iShCur) {
-    with (frames['frTabs'].document.all) {
-     tdTab[iTab].style.background=c_rgszClr[1];
+    function closeIfBackdrop(e) {
+      if (e.target.id === 'imageModal' || e.currentTarget === e.target) {
+        closeModal();
+      }
     }
-   }
-  }
- }
-}
-
-function fnSetActiveSheet(iSh)
-{
- if (iSh!=g_iShCur) {
-  fnSetTabProps(g_iShCur,false);
-  fnSetTabProps(iSh,true);
-  g_iShCur=iSh;
- }
-}
-
- window.g_iIEVer=fnGetIEVer();
- if (window.g_iIEVer>=4)
-  fnBuildFrameset();
-//-->
-</script>
-<![endif]><!--[if gte mso 9]><xml>
- <x:ExcelWorkbook>
-  <x:ExcelWorksheets>
-   <x:ExcelWorksheet>
-    <x:Name>Hoja1</x:Name>
-    <x:WorksheetSource HRef="Pijamas%20traducido_archivos/sheet001.htm"/>
-   </x:ExcelWorksheet>
-  </x:ExcelWorksheets>
-  <x:Stylesheet HRef="Pijamas%20traducido_archivos/stylesheet.css"/>
-  <x:WindowHeight>11865</x:WindowHeight>
-  <x:WindowWidth>28800</x:WindowWidth>
-  <x:WindowTopX>32767</x:WindowTopX>
-  <x:WindowTopY>32767</x:WindowTopY>
-  <x:ProtectStructure>False</x:ProtectStructure>
-  <x:ProtectWindows>False</x:ProtectWindows>
- </x:ExcelWorkbook>
-</xml><![endif]-->
-</head>
-
-<frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="Pijamas%20traducido_archivos/sheet001.htm" name="frSheet">
- <frame src="Pijamas%20traducido_archivos/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
- <noframes>
-  <body>
-   <p>Esta página utiliza marcos que su explorador no admite.</p>
-  </body>
- </noframes>
-</frameset>
+    window.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeModal(); });
+  </script>
+    </body>
 </html>
